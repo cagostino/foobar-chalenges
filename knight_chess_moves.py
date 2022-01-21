@@ -12,7 +12,6 @@ def solution(src, dest):
     mvs_x, mvs_y = getmoves(x1,y1)
     lowest_scores=[]
     while len(lowest_scores) ==0:
-        missed = []
         nstep+=1
         for i in range(len(mvs_x)):
             num = getanswers(mvs_x[i], x2, mvs_y[i], y2)
